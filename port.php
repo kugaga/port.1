@@ -7,8 +7,32 @@
 </head>
 <header>
 
-  <div class="container">
-  <h1>脇坂空雅</h1>
+  <div class="container">    
+    <div class="header-left">
+    <div>
+    <div class="header-right">
+    
+      <div class="one-header">
+      <div class="Message">
+        <p>Message</p>
+      <div>
+      <div>
+      <div class="one-header">    
+      <div class="About">
+        <p>About</p>
+      <div>  
+      <div>
+      <div class="one-header">      
+      <div class="Works">
+        <p>Works</p>
+      <div>
+      <div>    
+      <div class="one-header">     
+      <div class="Contact">
+        <p>Contact</p>
+      <div>
+      <div>    
+    <div>      
   <div>
 </header>  
 <body>
