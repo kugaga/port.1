@@ -14,16 +14,16 @@
     <div class="header-right">
     
       <div class="one-header">
-          <p class="Message">Message</p>
+          <a class="Message">Message</a>
       </div>
       <div class="one-header">    
-          <p class="About">About</p>  
+          <a class="About">About</a>  
       </div>
       <div class="one-header">              
-          <p class="Works">Works</p>
+          <a class="Works">Works</a>
       </div>
       <div class="one-header">     
-          <p class="Contact">Contact</p>
+          <a href="contact.php" class="Contact">Contact</a>
       </div>
     </div>      
 </header>  
