@@ -65,6 +65,7 @@ body{
     height: 600px;
     margin: 0px;
     top:0px;
+    z-index: 0;
 
 }
 
@@ -95,10 +96,12 @@ body{
     padding: 20px 50px 50px 50px;
     background-color: rgba(255, 255, 255, 0.687);
     color: rgb(67, 67, 67);
+    font-family:Palatino Linotype;
 }
 
 .Contitle{
     font-size:40px;
+    font-family:Palatino Linotype;
 }
 
 .in-form{
@@ -127,4 +130,37 @@ input[type="submit"]{
     color: black;
     background-color: #5cb85c;
     border:white;
+    font-family:Palatino Linotype;
+}
+
+.Wrapper-About{
+    padding:150px 10px;
+}
+
+.Entire-About{
+    width: 70%;
+    margin: 0px auto;
+    height: 230px;
+    padding: 10px 0px 10px 10px ;
+    background-color: rgba(255, 255, 255, 0.687);
+    display: flex;
+}
+
+.About-phote{
+    width: 20%;
+    background-color:ed;
+}
+
+.About-phote img{
+    border-radius: 50%;  
+    width:100%;
+    height:auto;
+}
+
+.AboutExplation{
+    background-color: aliceble;
+    margin-left:60px;
+    width:90%;
+    position:absolut;
+    
 }
