@@ -29,11 +29,11 @@
     </div>      
 </header>  
 <body>
-  <div class="menu-wrapper">
-    <div class="explanation">
+  <div class="works-wrapp">
+    <div class="coming">
+      <p>Coming soon...</p>
     </div>
-</div>  
-
+  </div>  
 </div>  
 </body>
 </html>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
 c*{
     margin:0px;
     padding:0px;
@@ -72,7 +75,7 @@ body{
 .Background2{
     background-color: black;
     width: 100%;
-    height:600px;
+    height:50px
 }
 
 .AboutBackgruoud{
@@ -110,12 +113,12 @@ body{
     padding: 20px 50px 50px 50px;
     background-color: rgba(255, 255, 255, 0.687);
     color: rgb(67, 67, 67);
-    font-family:Palatino Linotype;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 .Contitle{
     font-size:40px;
-    font-family:Palatino Linotype;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 .in-form{
@@ -144,12 +147,11 @@ input[type="submit"]{
     color: black;
     background-color: #5cb85c;
     border:white;
-    font-family:Palatino Linotype;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 .Wrapper-About{
     padding:100px 20px 0px 20px;
-    backgrond-color: rgb(255, 255, 235);
 }
 
 .btn1-Wrapper{
@@ -158,7 +160,7 @@ input[type="submit"]{
     font-size: smaller;
     background-color: rgba(8, 1, 12, 0.811);
     color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 
@@ -175,8 +177,8 @@ input[type="submit"]{
     display:flex;
     margin:30px 120px;
     font-size: smaller;
-    color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 .AboutPhote{
@@ -194,4 +196,15 @@ input[type="submit"]{
     margin-right:20px;
     margin-left:100px;
     background-color: rgba(8, 1, 12, 0.811);
+}
+
+.works-wrapp{
+    padding:150px 0px;
+}
+
+.coming p{
+    color:white;
+    text-align:center;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
 }

@@ -15,7 +15,7 @@
     <div class="header-right">
     
       <div class="one-header">
-          <a class="Message">Message</a>
+          <a href="port.php" class="Message">Message</a>
       </div>
       <div class="one-header">    
           <a href="about.php" class="About">About</a>  

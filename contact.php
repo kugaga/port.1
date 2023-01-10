@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
           <a href="port.php" class="Message">Message</a>
         </div>
         <div class="one-header">    
-          <a class="About">About</a>  
+          <a href="about.php" class="About">About</a>  
         </div>
         <div class="one-header">              
           <a class="Works">Works</a>
