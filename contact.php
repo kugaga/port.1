@@ -27,6 +27,8 @@ if(isset($_POST['submit'])){
   <meta charset="utf-8">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" type="text/css" href="port.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <div class="backgruoud"> 
 <header>
@@ -42,12 +44,14 @@ if(isset($_POST['submit'])){
           <a href="about.php" class="About">About</a>  
         </div>
         <div class="one-header">              
-          <a class="Works">Works</a>
+          <a href="works.php" class="Works">Works</a>
         </div>
         <div class="one-header">     
           <a href="contact.php" class="Contact">Contact</a>
         </div>
-    </div>      
+    </div>
+    <div id="cursor"></div>
+      <div id="stalker"></div>      
 </header>  
 <body>
 <div class="main">
@@ -70,5 +74,9 @@ if(isset($_POST['submit'])){
     </div>
 </div>    
 </div>  
+<div id="cursor"></div>
+<div id="stalker"></div> 
+<script src="script.js"></script>
+
 </body>
 </html>

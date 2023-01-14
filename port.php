@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" type="text/css" href="port.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <div class="backgruoud">  
-<header>
-
+<header> 
     <div class="header-left">
       
     </div>
@@ -26,14 +26,23 @@
       <div class="one-header">     
           <a href="contact.php" class="Contact">Contact</a>
       </div>
-    </div>      
+    </div>
+    <div id="cursor"></div>
+    <div id="stalker"></div>   
 </header>  
 <body>
-  <div class="menu-wrapper">
-    <div class="explanation">
-    </div>
-</div>  
+    <div class="menu-wrapper">
+      <div class="explanation">
+        <p id="KUGA">KUGA</p> 
+        <p id="port">PORTFOLIO</p>
+      </div>
+      <div class="myphote">
+      </div>
+    </div>  
+    <div id="cursor"></div>
+    <div id="stalker"></div>
+</div>
+<script src="script.js"></script>
 
-</div>  
 </body>
 </html>

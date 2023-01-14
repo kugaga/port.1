@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" type="text/css" href="port.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <div class="backgruoud">  
 <header>
@@ -26,7 +28,9 @@
       <div class="one-header">     
           <a href="contact.php" class="Contact">Contact</a>
       </div>
-    </div>      
+    </div>
+    <div id="cursor"></div>
+    <div id="stalker"></div>    
 </header>  
 <body>
   <div class="works-wrapp">
@@ -34,6 +38,10 @@
       <p>Coming soon...</p>
     </div>
   </div>  
-</div>  
+</div>
+<div id="cursor"></div>
+<div id="stalker"></div>   
+<script src="script.js"></script>
+
 </body>
 </html>

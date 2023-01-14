@@ -5,29 +5,33 @@
   <meta charset="utf-8">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" type="text/css" href="port.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <div class="backgruoud">  
 <header>
-
-    <div class="header-left">
+<div class="header-left">
       
-    </div>
-    <div class="header-right">
-    
-      <div class="one-header">
-          <a href="port.php" class="Message">Message</a>
       </div>
-      <div class="one-header">    
-          <a href="about.php" class="About">About</a>  
+      <div class="header-right">
+      
+        <div class="one-header">
+            <a href="port.php" class="Message">Message</a>
+        </div>
+        <div class="one-header">    
+            <a href="about.php" class="About">About</a>  
+        </div>
+        <div class="one-header">              
+            <a href="works.php"  class="Works">Works</a>
+        </div>
+        <div class="one-header">     
+            <a href="contact.php" class="Contact">Contact</a>
+        </div>
       </div>
-      <div class="one-header">              
-          <a class="Works">Works</a>
-      </div>
-      <div class="one-header">     
-          <a href="contact.php" class="Contact">Contact</a>
-      </div>
-    </div>      
-</header>  
+      <div id="cursor"></div>
+      <div id="stalker"></div>   
+</header> 
+  
 <body>
     <div class="Wrapper-About">
         <div class="btn1-Wrapper">
@@ -59,12 +63,17 @@
             <p>目標：個人でサイトの業務委託できるようになる</p>
         </div>
     </div>
+
 </div>
     
 
 </div>
 <div class="Background2">
 
-</div>  
+</div>
+<div id="cursor"></div>
+<div id="stalker"></div>
+<script src="script.js"></script>
+
 </body>
 </html>
